@@ -1,0 +1,39 @@
+com.unilak.expensetracker
+├── config
+│   ├── SecurityConfig.java
+│   ├── JwtConfig.java
+│   └── SwaggerConfig.java
+├── controllers
+│   ├── AuthController.java
+│   ├── TransactionController.java
+│   ├── SummaryController.java
+│   └── AdminController.java
+├── entities
+│   ├── User.java
+│   ├── Transaction.java
+│   └── BaseEntity.java
+├── repositories
+│   ├── UserRepository.java
+│   └── TransactionRepository.java
+├── services
+│   ├── AuthService.java
+│   ├── TransactionService.java
+│   ├── SummaryService.java
+│   └── AdminService.java
+├── payloads
+│   ├── request
+│   │   ├── SignupRequest.java
+│   │   ├── LoginRequest.java
+│   │   └── TransactionRequest.java
+│   └── response
+│       ├── ApiResponse.java
+│       ├── JwtResponse.java
+│       └── TransactionResponse.java
+├── utils
+│   ├── JwtUtils.java
+│   └── Constants.java
+├── exceptions
+│   ├── ResourceNotFoundException.java
+│   ├── UnauthorizedException.java
+│   └── GlobalExceptionHandler.java
+└── ExpenseTrackerApplication.java
